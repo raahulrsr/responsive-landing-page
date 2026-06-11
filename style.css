@@ -1,0 +1,43 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+.hero{
+    background:#f4f4f4;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.service-card{
+    transition:0.3s;
+    margin-bottom:20px;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.about-section{
+    background:#f8f9fa;
+    padding:80px 20px;
+}
+
+footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
